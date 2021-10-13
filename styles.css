@@ -5,13 +5,14 @@ body, html{
 }
 body{
     
-    background:  linear-gradient(rgb(8, 30, 119, .8), rgba(155,35,234, .7)), url(img/backgraund.jpg) ;
+    background:  linear-gradient(rgb(8, 30, 119, .8), rgba(155,35,234, .7)), url(img/backgraund1.0.jpg) ;
     background-size: 200%;
     background-position: center;
     color: blanchedalmond;
     animation: movimiento 10s infinite;
 }
 .navbar{
+    color: gray;
     height: 5%;
     padding: 0;
     margin: 0;
