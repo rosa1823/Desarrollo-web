@@ -1,47 +1,52 @@
-body, html{
-    height: 100%;
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
-body{
-    
-    background:  linear-gradient(rgb(8, 30, 119, .8), rgba(155,35,234, .7)), url(img/backgraund1.0.jpg) ;
-    background-size: 200%;
-    background-position: center;
-    color: blanchedalmond;
-    animation: movimiento 10s infinite;
+body {
+  background: linear-gradient(rgb(8, 30, 119, 0.8), rgba(155, 35, 234, 0.7)),
+    url(img/backgraund1.0.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: blanchedalmond;
+  height: 100%;
+  min-height: 100vh;
+  animation: movimiento 10s infinite;
 }
-.navbar{
-    color: gray;
-    height: 5%;
-    padding: 0;
-    margin: 0;
+.navbar {
+  color: gray;
+  height: 5%;
+  padding: 0;
+  margin: 0;
 }
 .logo {
-    height: 40px;
-    margin-top: 20px;
+  height: 40px;
+  margin-top: 20px;
 }
-.text-description{
-    letter-spacing: 2px;
-    font-family: sans-serif;
-    margin-top: 150px;
+.text-description {
+  letter-spacing: 2px;
 }
-.titulo{
-    font-family: 'Times New Roman', Times, serif;
+
+.titulo {
+  font-family: "Times New Roman", Times, serif;
 }
-.form-control{
-    background: transparent !important;
-    color: whitesmoke !important;
+.form-control {
+  background: transparent !important;
+  color: whitesmoke !important;
 }
-a .fab{
-    color: white;
-    font-size: 30px;
-    margin: 0 10px;
+a .fab {
+  color: white;
+  font-size: 30px;
+  margin: 0 10px;
 }
-@keyframes movimiento{
-    from{
-        background-position: bottom left;
-    }to{
-        background-position: top right;
-    }
+form input::placeholder {
+  -webkit-text-stroke: 0.5px white;
+}
+@keyframes movimiento {
+  from {
+    background-position: bottom left;
+  }
+  to {
+    background-position: top right;
+  }
 }
